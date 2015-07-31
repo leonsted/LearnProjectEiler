@@ -2,7 +2,7 @@
 public class Main { 
 
 	public static boolean is_prime(long number){
-        //check for evenness
+        
         if (number % 2 == 0)
         {
             if (number == 2)
@@ -11,7 +11,7 @@ public class Main {
             }
             return false;
         }
-        //don't need to check past the square root
+      
         int max = (int)Math.sqrt(number);
         for (int i = 3; i <= max; i += 2)
         {
